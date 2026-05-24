@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawel Urbanowicz | Resume</title>
+    <meta name="description" content="Senior software engineer with experience in real-time streaming, cloud-native data pipelines, and distributed applications.">
+    <!-- Favicon (Tab Logo) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230a74da'/><text x='50' y='72' font-family='sans-serif' font-size='65' font-weight='bold' fill='white' text-anchor='middle'>L</text></svg>">
+    <!-- Open Graph SEO Meta Tags -->
+    <meta property="og:title" content="Pawel Urbanowicz | Senior Software Engineer">
+    <meta property="og:description" content="Senior software engineer with experience in real-time streaming and cloud-native data pipelines.">
+    <meta property="og:image" content="assets/thumbnail.svg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pawel Urbanowicz | Senior Software Engineer">
+    <meta name="twitter:description" content="Senior software engineer with experience in real-time streaming and cloud-native data pipelines.">
+    <meta name="twitter:image" content="assets/thumbnail.svg">
+    <meta property="og:url" content="/">
+    <meta property="og:type" content="website">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress-bar" id="scrollProgress"></div>
+
+    <!-- Background animations -->
+    <div class="bg-gradient-1"></div>
+    <div class="bg-gradient-2"></div>
+    <div class="bg-grid"></div>
+
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div style="display: flex; align-items: center; gap: 0.8rem;">
+                <span class="nav-icon">&lt;/&gt;</span>
+                <a href="#home" class="logo" style="margin-right: 0.8rem;">Pawel <span>U</span>.</a>
+                <span class="nav-icon">⚡</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="btn-outline">Contact Me</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text fade-up">
+                <p class="greeting">Hi there, I'm</p>
+                    <h1>Pawel <span class="gradient-text">Urbanowicz</span></h1>
+                    <h2>Senior Software Engineer</h2>
+                    <p class="hero-desc">
+                        Senior Software Engineer with 10+ years of experience building scalable, AI-powered web applications using Python (FastAPI), TypeScript, Node.js, NestJS, React.js, and Vue.js.
+                    </p>
+                <!-- Tactical Survivor Dossier / System Diagnostics -->
+                <div class="tactical-dossier">
+                    <div class="dossier-item">
+                        <span class="dossier-label">PROJECTS LIVE</span>
+                        <span class="dossier-val"><span class="dossier-status-dot"></span>48 ACTIVE</span>
+                    </div>
+                    <div class="dossier-item">
+                        <span class="dossier-label">REGION</span>
+                        <span class="dossier-val">Warsaw / Global</span>
+                    </div>
+                    <div class="dossier-item">
+                        <span class="dossier-label">SYSTEM HEALTH</span>
+                        <span class="dossier-val"><span class="dossier-status-dot"></span>HEALTHY</span>
+                    </div>
+                    <div class="dossier-item">
+                        <span class="dossier-label">PIPELINE SYNC</span>
+                        <span class="dossier-val">COMPLETED (100%)</span>
+                    </div>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="btn-primary">View My Work</a>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/pawel-urbanowicz/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/pawel-urbanowicz" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="mailto:pawelurbanowicz5@outlook.com" aria-label="Email"><i class="fa fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual fade-up" style="transition-delay: 0.2s">
+                <div class="radar-container">
+                    <div class="radar-sweep"></div>
+                    <div class="radar-ring ring-1"></div>
+                    <div class="radar-ring ring-2"></div>
+                    <div class="radar-ring ring-3"></div>
+                    <div class="radar-crosshair-h"></div>
+                    <div class="radar-crosshair-v"></div>
+                    
+                    <!-- Pulse delays synchronized with the 6s clockwise sweep starting at 12 o'clock -->
+                    <div class="radar-node" style="--delay: 0.5s; top: 20%; left: 65%;">
+                        <span class="node-dot"></span>
+                        <span class="node-label">Cloud Data</span>
+                    </div>
+                    <div class="radar-node" style="--delay: 1.5s; top: 40%; left: 80%;">
+                        <span class="node-dot"></span>
+                        <span class="node-label">Apache Beam</span>
+                    </div>
+                    <div class="radar-node" style="--delay: 2.5s; top: 80%; left: 75%;">
+                        <span class="node-dot"></span>
+                        <span class="node-label">GCP</span>
+                    </div>
+                    <div class="radar-node" style="--delay: 3.5s; top: 72%; left: 45%;">
+                        <span class="node-dot"></span>
+                        <span class="node-label">DataOps</span>
+                    </div>
+                    <div class="radar-node" style="--delay: 4.5s; top: 55%; left: 15%;">
+                        <span class="node-dot"></span>
+                        <span class="node-label">Kafka</span>
+                    </div>
+                    <div class="radar-node" style="--delay: 5.0s; top: 25%; left: 30%;">
+                        <span class="node-dot"></span>
+                        <span class="node-label">Real-Time</span>
+                    </div>
+                    
+                    <div class="radar-center-dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="section-container">
+            <h3 class="section-title fade-up">About Me</h3>
+            <div class="about-content fade-up">
+                <div class="about-text">
+                    <img src="profile.jpg" alt="Profile photo of Pawel Urbanowicz" loading="lazy" onerror="this.onerror=null; this.src='thumbnail.png';" style="float: left; width: 180px; height: 180px; object-fit: cover; border-radius: 16px; border: 2px solid var(--glass-border); box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3); margin: 0 2rem 1.5rem 0; background: var(--glass-bg);">
+                    <p>
+                        Senior Software Engineer with 10+ years of experience building scalable, AI-powered web applications using Python (FastAPI), TypeScript, Node.js, NestJS, React.js, and Vue.js. Skilled in designing end-to-end systems, integrating AI/LLM workflows, and delivering production-ready features with real-time capabilities, microservices, and CI/CD pipelines. Experienced in optimizing databases (PostgreSQL, MySQL, MongoDB) and cloud-native infrastructure (AWS, Docker, Kubernetes, Terraform) for high performance and reliability. Strong track record of collaborating with cross-functional teams to ship robust, user-centric platforms in fast-paced startup and enterprise environments.
+                    </p>
+                    <p>
+                        Location: Warsaw Metropolitan Area, Poland &nbsp; | &nbsp; Open to remote roles. Contact via Email.
+                    </p>
+                </div>
+
+                <div class="about-credentials">
+                    <div class="education-card glass-card">
+                        <h4><i class="fas fa-graduation-cap"></i> Education</h4>
+                        <div class="edu-item">
+                            <div class="edu-header">
+                                <h5>Master's degree, Computer Science</h5>
+                                <span>2019 &ndash; 2020</span>
+                            </div>
+                            <p class="institution">Warsaw University of Technology</p>
+                            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.3rem;">Thesis: Comparisons of real-time prediction technologies on an example of payment fraud detection (Spark, Flink, Kafka, Keras, Docker)</p>
+                        </div>
+                        <div class="edu-item" style="margin-top: 1rem;">
+                            <div class="edu-header">
+                                <h5>Master's degree (exchange)</h5>
+                                <span>2019</span>
+                            </div>
+                            <p class="institution">National Taipei University of Technology</p>
+                            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.3rem;">Completed an exchange semester within the master's program at WUT.</p>
+                        </div>
+                        <div class="edu-item" style="margin-top: 1rem;">
+                            <div class="edu-header">
+                                <h5>Master's degree (exchange)</h5>
+                                <span>2019</span>
+                            </div>
+                            <p class="institution">Universidade de Coimbra</p>
+                            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.3rem;">Participated in a master-level academic exchange focused on informatics and engineering.</p>
+                        </div>
+                        <div class="edu-item" style="margin-top: 1rem;">
+                            <div class="edu-header">
+                                <h5>Bachelor of Science - BS, Computer Science</h5>
+                                <span>2014 &ndash; 2019</span>
+                            </div>
+                            <p class="institution">Warsaw University of Technology</p>
+                        </div>
+                    </div>
+
+                    <div class="education-card glass-card" style="margin-top: 1.5rem;">
+                        <h4><i class="fas fa-tools"></i> Core Technologies</h4>
+                        <ul style="margin-top: 1rem; list-style: disc inside; color: var(--text-muted);">
+                            <li>Apache Beam, GCP, Java, cloud data connectors</li>
+                            <li>Real-time streaming, Kafka, Terraform, AWS</li>
+                            <li>Python, Spring, REST APIs, Microservices</li>
+                            <li>IoT integration, Serverless, Cloud-native data engineering</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="stats-grid">
+                        <div class="stat-card glass-card">
+                            <span class="stat-num">10+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-card glass-card">
+                            <span class="stat-num">160+</span>
+                            <span class="stat-label">Projects Delivered</span>
+                        </div>
+                        <div class="stat-card glass-card">
+                            <span class="stat-num">12<span class="small">TB+</span></span>
+                            <span class="stat-label">Data Processed</span>
+                        </div>
+                        <div class="stat-card glass-card">
+                            <span class="stat-num">40%</span>
+                            <span class="stat-label">Runtime Reduction</span>
+                        </div>
+                </div>
+            </div>
+
+            <!-- GitHub & Telemetry Hub -->
+            <div class="github-telemetry-hub fade-up" style="margin-top: 3rem;">
+                <div class="github-chart-card glass-card" style="padding: 2.5rem; text-align: center;">
+                    <h4 style="margin-bottom: 2rem; color: var(--text-main); font-family: var(--font-heading); font-size: 1.5rem;"><i class="fab fa-github" style="color: var(--primary);"></i> GitHub Contribution Calendar</h4>
+                    <div style="overflow-x: auto; padding-bottom: 1rem;">
+                        <img src="https://ghchart.rshah.org/pawel-urbanowicz" alt="GitHub Contributions" style="width: 100%; max-width: 800px; filter: invert(1) hue-rotate(180deg) brightness(1.2);">
+                    </div>
+                </div>
+                
+                <div class="terminal-card-wrapper glass-card" style="padding: 2rem; display: flex; flex-direction: column; justify-content: space-between; height: 100%; box-sizing: border-box; min-height: 310px;">
+                    <div class="terminal-header-strip" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid rgba(10,116,218,0.15); padding-bottom: 0.8rem;">
+                        <div style="display: flex; align-items: center; gap: 0.6rem;">
+                            <span style="width: 10px; height: 10px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 8px rgba(56, 199, 255, 0.55); display: inline-block; animation: radarNodePulse 1.5s infinite alternate;"></span>
+                            <span style="font-family: monospace; font-size: 0.8rem; letter-spacing: 1px; color: var(--primary); font-weight: bold; text-transform: uppercase;">DATA SKILLSCAN</span>
+                        </div>
+                        <span style="font-family: monospace; font-size: 0.75rem; color: var(--text-muted);">SKILL SET: Cloud Data / Beam / GCP</span>
+                    </div>
+                    
+                    <div class="terminal-feed-container" id="terminalFeed" style="flex-grow: 1; min-height: 180px; max-height: 220px; overflow-y: auto; font-family: monospace; font-size: 0.8rem; color: var(--accent); line-height: 1.5; padding: 0.8rem; background: rgba(2, 7, 25, 0.92); border-radius: 6px; border: 1px solid rgba(10, 116, 218, 0.18); box-sizing: border-box; text-shadow: 0 0 2px rgba(10, 116, 218, 0.35);">
+                        <div class="term-line" style="color: var(--text-muted);">[SYS_INIT] Loading cloud data connector metadata and stream topology...</div>
+                        <div class="term-line" style="color: var(--text-muted);">[PIPELINE] Kafka + Beam ingestion routes established.</div>
+                        <div class="term-line">[CLOUD] GCP services authenticated and monitoring active.</div>
+                        <div class="term-line">[DATA_OPS] Schema sync and drift checks are green.</div>
+                        <div class="term-line">[ALERT] Observability stream healthy, SLA within target.</div>
+                        <div class="term-line term-prompt">pawel@data-node:~$ </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="section-container">
+            <h3 class="section-title fade-up">Technical Skills</h3>
+
+            <div class="skills-grid fade-up" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem;">
+                <div class="skill-category glass-card">
+                    <h4>Platform Engineering</h4>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>Cloud Data</span><span>94%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 94%;"></div></div>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>Kafka / Streaming</span><span>92%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 92%;"></div></div>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>Apache Beam</span><span>90%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 90%;"></div></div>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>dbt / Data Modeling</span><span>88%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 88%;"></div></div>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>Data Warehousing</span><span>86%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 86%;"></div></div>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>Schema Governance</span><span>84%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 84%;"></div></div>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>Streaming SQL</span><span>82%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 82%;"></div></div>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>Data Quality</span><span>80%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 80%;"></div></div>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card">
+                    <h4>Cloud & Infrastructure</h4>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>GCP</span><span>92%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 92%;"></div></div>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>Terraform</span><span>90%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 90%;"></div></div>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>Pipeline Orchestration</span><span>88%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 88%;"></div></div>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>Observability</span><span>86%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 86%;"></div></div>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>Cloud Security</span><span>84%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 84%;"></div></div>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>Production Reliability</span><span>82%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 82%;"></div></div>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>Service Delivery</span><span>80%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 80%;"></div></div>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card">
+                    <h4>Software Engineering</h4>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>Java / Spring</span><span>94%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 94%;"></div></div>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>Python / Data Services</span><span>92%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 92%;"></div></div>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>APIs / Microservices</span><span>90%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 90%;"></div></div>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>Distributed Systems</span><span>88%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 88%;"></div></div>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>REST / Integration</span><span>86%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 86%;"></div></div>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>Microservice Reliability</span><span>84%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 84%;"></div></div>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-label"><span>Integration Testing</span><span>82%</span></div>
+                        <div class="progress-track"><div class="progress-fill" style="width: 82%;"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="section-container">
+            <h3 class="section-title fade-up">Professional Experience</h3>
+            <div class="experience-grid fade-up">
+                
+                <!-- GPS Sidebar Tracker Panel -->
+                <div class="timeline-gps-panel glass-card">
+                    <div class="gps-header">
+                        <div class="gps-lock">
+                            <span class="lock-indicator"><i class="fas fa-crosshairs pulse-slow"></i> GPS LOCK: ACTIVE</span>
+                            <span class="active-pulse"></span>
+                        </div>
+                        <h4>TACTICAL GPS COORDS</h4>
+                    </div>
+                    
+                    <div class="gps-coordinates">
+                        <div class="gps-row">
+                            <span class="gps-label">SECTOR:</span>
+                            <span class="gps-val font-mono" style="color: var(--primary);">SNOW-DATA-01</span>
+                        </div>
+                        <div class="gps-row">
+                            <span class="gps-label">LATITUDE:</span>
+                            <span class="gps-val font-mono">52.2297° N</span>
+                        </div>
+                        <div class="gps-row">
+                            <span class="gps-label">LONGITUDE:</span>
+                            <span class="gps-val font-mono">86.1581° W</span>
+                        </div>
+                        <div class="gps-row">
+                            <span class="gps-label">STATUS:</span>
+                            <span class="gps-val font-mono" style="color: #4ade80;">SIGNAL SECURE</span>
+                        </div>
+                    </div>
+
+                    <!-- Mini Vector Map/Radar Simulation -->
+                    <div class="radar-container-mini">
+                        <div class="radar-sweep"></div>
+                        <div class="radar-blip central-blip"></div>
+                        <div class="radar-blip outer-blip-1"></div>
+                        <div class="radar-blip outer-blip-2"></div>
+                        <div class="radar-grid-circle circle-1"></div>
+                        <div class="radar-grid-circle circle-2"></div>
+                        <div class="radar-grid-line line-h"></div>
+                        <div class="radar-grid-line line-v"></div>
+                    </div>
+
+                    <!-- Career Node Trajectory -->
+                    <div class="gps-trajectory">
+                        <h5 class="panel-subtitle">CAREER SECTOR TRAJECTORY</h5>
+                        <div class="trajectory-steps">
+                            <div class="trajectory-step active">
+                                <div class="step-marker"><i class="fas fa-satellite-dish"></i></div>
+                                <div class="step-info">
+                                    <span class="step-title">Snowflake Senior Software Engineer</span>
+                                    <span class="step-location">Feb 2024 &ndash; Apr 2026</span>
+                                </div>
+                            </div>
+                            <div class="trajectory-step">
+                                <div class="step-marker"><i class="fas fa-database"></i></div>
+                                <div class="step-info">
+                                    <span class="step-title">Snowflake Software Engineer</span>
+                                    <span class="step-location">Feb 2021 &ndash; Jan 2024</span>
+                                </div>
+                            </div>
+                            <div class="trajectory-step">
+                                <div class="step-marker"><i class="fas fa-cloud"></i></div>
+                                <div class="step-info">
+                                    <span class="step-title">Polidea / Snowflake Integration</span>
+                                    <span class="step-location">Mar 2020 &ndash; Feb 2021</span>
+                                </div>
+                            </div>
+                            <div class="trajectory-step">
+                                <div class="step-marker"><i class="fas fa-code"></i></div>
+                                <div class="step-info">
+                                    <span class="step-title">imapp Software Engineer</span>
+                                    <span class="step-location">Mar 2018 &ndash; Feb 2019</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Lifetime Metrics -->
+                    <div class="gps-metrics">
+                        <h5 class="panel-subtitle">LIFETIME FIELD STATS</h5>
+                        <div class="metrics-grid-mini">
+                            <div class="metric-mini-card">
+                                <span class="metric-mini-label">Pipeline Reliability</span>
+                                <span class="metric-mini-val">94%</span>
+                            </div>
+                            <div class="metric-mini-card">
+                                <span class="metric-mini-label">Backend Throughput</span>
+                                <span class="metric-mini-val">92%</span>
+                            </div>
+                            <div class="metric-mini-card">
+                                <span class="metric-mini-label">Database Integrity</span>
+                                <span class="metric-mini-val">98%</span>
+                            </div>
+                            <div class="metric-mini-card">
+                                <span class="metric-mini-label">Operational Accuracy</span>
+                                <span class="metric-mini-val" style="color: #4ade80;">91%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline">
+
+                    <!-- Snowflake Senior Software Engineer -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">Feb 2024 &ndash; Apr 2026</span>
+                            <div class="timeline-header">
+                                <h4>Senior Software Engineer</h4>
+                                <h5>Snowflake &nbsp;&middot;&nbsp; Warsaw, Poland</h5>
+                            </div>
+                            <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 1rem; font-style: italic;">Leading Snowflake connector and cloud data platform engineering for enterprise analytics and streaming workloads.</p>
+                            <ul class="experience-list">
+                                <li>Delivered Snowflake connector architecture for Apache Beam, enabling secure cloud ingestion and schema-aware loading.</li>
+                                <li>Designed high-throughput pipelines using Kafka, GCP, and Terraform to support real-time analytics and IoT data flows.</li>
+                                <li>Built observability, retry, and idempotency patterns that improved data reliability and reduced operational incidents.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Snowflake Software Engineer -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">Feb 2021 &ndash; Jan 2024</span>
+                            <div class="timeline-header">
+                                <h4>Software Engineer</h4>
+                                <h5>Snowflake &nbsp;&middot;&nbsp; Warsaw, Poland</h5>
+                            </div>
+                            <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 1rem; font-style: italic;">Built Snowflake integration services and cloud-native data products supporting platform and customer success teams.</p>
+                            <ul class="experience-list">
+                                <li>Developed Snowflake product integrations with Apache Beam and realtime streaming ingestion pipelines.</li>
+                                <li>Engineered Java and Python microservices with Spring and GCP for analytics workload orchestration.</li>
+                                <li>Enhanced connector observability with centralized logging, metrics, and alerting for production readiness.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Polidea / Snowflake -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">Mar 2020 &ndash; Feb 2021</span>
+                            <div class="timeline-header">
+                                <h4>Software Engineer</h4>
+                                <h5>Polidea (acquired by Snowflake) &nbsp;&middot;&nbsp; Warsaw, Poland</h5>
+                            </div>
+                            <ul class="experience-list">
+                                <li>Built Snowflake connector support for Apache Beam and AWS-based IoT ingestion workflows.</li>
+                                <li>Implemented serverless ingestion, schema mapping, and data validation for enterprise monitoring platforms.</li>
+                                <li>Automated deployment pipelines and integration tests to accelerate Snowflake onboarding.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- imapp -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">Mar 2018 &ndash; Feb 2019</span>
+                            <div class="timeline-header">
+                                <h4>Software Engineer</h4>
+                                <h5>imapp &nbsp;&middot;&nbsp; Warsaw Metropolitan Area</h5>
+                            </div>
+                            <ul class="experience-list">
+                                <li>Delivered secure backend services for payments and blockchain-enabled financial applications.</li>
+                                <li>Designed API and integration layers for fintech workflows, with a focus on reliability and data security.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- CERN Technical Student -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">Mar 2017 &ndash; Feb 2018</span>
+                            <div class="timeline-header">
+                                <h4>Technical Student</h4>
+                                <h5>CERN &nbsp;&middot;&nbsp; Switzerland</h5>
+                            </div>
+                            <ul class="experience-list">
+                                <li>Supported data acquisition and controls systems in the Beams Department.</li>
+                                <li>Contributed to software and monitoring tools for experimental infrastructure.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Onwelo -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">Jul 2016 &ndash; Dec 2016</span>
+                            <div class="timeline-header">
+                                <h4>Junior Java Developer</h4>
+                                <h5>Onwelo &nbsp;&middot;&nbsp; Warsaw Metropolitan Area</h5>
+                            </div>
+                            <ul class="experience-list">
+                                <li>Developed Java enterprise backend components and integration tests for production services.</li>
+                                <li>Supported release quality and deployment readiness across multi-team projects.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="section-container">
+            <h3 class="section-title fade-up">Featured Projects</h3>
+            
+            <!-- Project Filters -->
+            <div class="project-filters fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="integration">Integration</button>
+                <button class="filter-btn" data-filter="streaming">Streaming</button>
+                <button class="filter-btn" data-filter="platform">Platform</button>
+                <button class="filter-btn" data-filter="operations">Operations</button>
+            </div>
+
+            <div class="projects-grid fade-up">
+
+                <!-- Project 0: Connector Platform -->
+                <div class="project-card glass-card active-dev" data-category="integration">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <div class="project-folder"><i class="far fa-folder-open"></i></div>
+                            <div class="project-links">
+                                <span class="badge-active-dev"><i class="fas fa-circle"></i>Active Dev</span>
+                                <a href="https://github.com/pawel-urbanowicz" target="_blank" style="margin-left: 0.5rem;"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h4>Connector Platform</h4>
+                        <p>Enterprise connector platform for Apache Beam ingestion, designed for secure data delivery and schema-aware stream processing.</p>
+                        <ul class="project-tech">
+                            <li>Apache Beam</li>
+                            <li>Kafka</li>
+                            <li>GCP Pub/Sub</li>
+                            <li>Terraform</li>
+                        </ul>
+                        <button class="btn-outline case-btn" style="margin-top: 1.5rem; width: 100%; cursor: pointer;" onclick="openModal('Connector Platform', '<strong>Project Architecture & Deep Dive:</strong><br><br>Built an enterprise connector platform to simplify secure ingestion of streaming data.<br><br><strong>Technical Implementation:</strong><br><ul><li><strong>Connector Design:</strong> Implemented Beam transforms for buffer management, event batching, and secure staging.</li><li><strong>Cloud Integration:</strong> Connected GCP Pub/Sub with Terraform-managed infrastructure for resilient ingestion.</li><li><strong>Operational Reliability:</strong> Added retries, idempotency, and monitoring hooks for production-grade stream processing.</li></ul><br><strong>Impact:</strong> Reduced deployment time and improved ingestion reliability for enterprise workloads.')">Read Case Study</button>
+                    </div>
+                </div>
+
+                <!-- Project 1: Stream Ingestion Framework -->
+                <div class="project-card glass-card" data-category="integration">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <div class="project-folder"><i class="far fa-folder-open"></i></div>
+                            <div class="project-links">
+                                <a href="https://github.com/pawel-urbanowicz" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h4>Stream Ingestion Framework</h4>
+                        <p>Framework for ingesting event streams, enforcing schema quality, and loading normalized datasets into cloud analytics stores.</p>
+                        <ul class="project-tech">
+                            <li>Kafka</li>
+                            <li>Python</li>
+                            <li>Apache Beam</li>
+                            <li>GCP</li>
+                        </ul>
+                        <button class="btn-outline case-btn" style="margin-top: 1.5rem; width: 100%; cursor: pointer;" onclick="openModal('Stream Ingestion Framework', '<strong>Project Architecture & Deep Dive:</strong><br><br>Built a stream ingestion framework to normalize event feeds and prepare them for analytics use.<br><br><strong>Technical Implementation:</strong><br><ul><li><strong>Stream Normalization:</strong> Used Python and Beam transforms to enforce schema and enrich streaming payloads.</li><li><strong>Reliable Delivery:</strong> Connected Kafka with cloud data pipelines to support replay-safe ingestion.</li><li><strong>Platform Governance:</strong> Added schema validation and operational monitoring for production readiness.</li></ul><br><strong>Impact:</strong> Delivered stable ingestion pipelines and reduced data onboarding friction.')">Read Case Study</button>
+                    </div>
+                </div>
+
+                <!-- Project 2: Streaming Data Engine -->
+                <div class="project-card glass-card" data-category="streaming">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <div class="project-folder"><i class="far fa-folder-open"></i></div>
+                            <div class="project-links">
+                                <a href="https://github.com/pawel-urbanowicz" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h4>Streaming Data Engine</h4>
+                        <p>Stream processing pipeline that converts live event feeds into normalized analytics datasets and operational metrics.</p>
+                        <ul class="project-tech">
+                            <li>Kafka</li>
+                            <li>Apache Beam</li>
+                            <li>Airflow</li>
+                            <li>GCP</li>
+                        </ul>
+                        <button class="btn-outline case-btn" style="margin-top: 1.5rem; width: 100%; cursor: pointer;" onclick="openModal('Streaming Data Engine', '<strong>Project Architecture & Deep Dive:</strong><br><br>Created a streaming data engine that ingests event feeds, enforces schema quality, and loads normalized datasets for reporting.<br><br><strong>Technical Implementation:</strong><br><ul><li><strong>Streaming Ingestion:</strong> Normalized Kafka events with Apache Beam for fault-tolerant processing.</li><li><strong>Workflow Orchestration:</strong> Scheduled quality checks and load sequences with Airflow.</li><li><strong>Analytics Storage:</strong> Persisted normalized event streams in cloud analytics storage for reporting.</li></ul><br><strong>Impact:</strong> Improved data readiness and reduced pipeline latency for operational reporting.')">Read Case Study</button>
+                    </div>
+                </div>
+
+                <!-- Project 3: Enterprise Data Orchestrator -->
+                <div class="project-card glass-card" data-category="platform">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <div class="project-folder"><i class="far fa-folder-open"></i></div>
+                            <div class="project-links">
+                                <a href="https://github.com/pawel-urbanowicz" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h4>Enterprise Data Orchestrator</h4>
+                        <p>Orchestration layer for ETL validation and batch synchronization across cloud data services.</p>
+                        <ul class="project-tech">
+                            <li>Python</li>
+                            <li>Airflow</li>
+                            <li>REST APIs</li>
+                            <li>Terraform</li>
+                        </ul>
+                        <button class="btn-outline case-btn" style="margin-top: 1.5rem; width: 100%; cursor: pointer;" onclick="openModal('Enterprise Data Orchestrator', '<strong>Project Architecture & Deep Dive:</strong><br><br>Delivered an orchestration platform to manage ETL, validation, and sync tasks for enterprise data workloads.<br><br><strong>Technical Implementation:</strong><br><ul><li><strong>Workflow Scheduling:</strong> Developed Airflow DAGs for ingestion, transformation, and load flows.</li><li><strong>Data Quality:</strong> Implemented validation gates, rollback support, and schema checks.</li><li><strong>API Controls:</strong> Exposed operational controls via REST endpoints and automated deployments.</li></ul><br><strong>Impact:</strong> Reduced manual pipeline management and improved data reliability across production workflows.')">Read Case Study</button>
+                    </div>
+                </div>
+
+                <!-- Project 4: Schema Sync & Quality Hub -->
+                <div class="project-card glass-card" data-category="platform">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <div class="project-folder"><i class="far fa-folder-open"></i></div>
+                            <div class="project-links">
+                                <a href="https://github.com/pawel-urbanowicz" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h4>Schema Sync & Quality Hub</h4>
+                        <p>Operations portal for schema synchronization, data validation, and pipeline health monitoring across cloud data environments.</p>
+                        <ul class="project-tech">
+                            <li>dbt</li>
+                            <li>Terraform</li>
+                            <li>Grafana</li>
+                            <li>GCP</li>
+                        </ul>
+                        <button class="btn-outline case-btn" style="margin-top: 1.5rem; width: 100%; cursor: pointer;" onclick="openModal('Schema Sync & Quality Hub', '<strong>Project Architecture & Deep Dive:</strong><br><br>Built a hub for schema synchronization, quality checks, and pipeline monitoring across cloud data environments.<br><br><strong>Technical Implementation:</strong><br><ul><li><strong>Schema Versioning:</strong> Managed schema changes and migrations with automated sync workflows.</li><li><strong>Quality Gates:</strong> Added data validation policies and anomaly checks before loads.</li><li><strong>Observability:</strong> Visualized pipeline health in Grafana dashboards for operations teams.</li></ul><br><strong>Impact:</strong> Increased deployment confidence and reduced data incidents in production pipelines.')">Read Case Study</button>
+                    </div>
+                </div>
+
+                <!-- Project 5: Pipeline Health Dashboard -->
+                <div class="project-card glass-card" data-category="operations">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <div class="project-folder"><i class="far fa-folder-open"></i></div>
+                            <div class="project-links">
+                                <a href="https://github.com/pawel-urbanowicz" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h4>Pipeline Health Dashboard</h4>
+                        <p>Operational dashboard for tracking pipeline health, data quality, and service metrics across cloud systems.</p>
+                        <ul class="project-tech">
+                            <li>Grafana</li>
+                            <li>Python</li>
+                            <li>GCP</li>
+                            <li>Monitoring</li>
+                        </ul>
+                        <button class="btn-outline case-btn" style="margin-top: 1.5rem; width: 100%; cursor: pointer;" onclick="openModal('Pipeline Health Dashboard', '<strong>Project Architecture & Deep Dive:</strong><br><br>Created an observability dashboard to monitor pipeline health, usage, and quality trends for operations teams.<br><br><strong>Technical Implementation:</strong><br><ul><li><strong>Telemetry Collection:</strong> Aggregated metrics from stream jobs, ingestion services, and cloud processes.</li><li><strong>Trend Analysis:</strong> Surfaced error rates, latency, and resource consumption with customizable charts.</li><li><strong>Alerting:</strong> Integrated notifications for threshold breaches and emerging anomalies.</li></ul><br><strong>Impact:</strong> Enabled proactive incident response and reduced downtime for critical data flows.')">Read Case Study</button>
+                    </div>
+                </div>
+
+                <!-- Project 6: Partner Ingestion PoC -->
+                <div class="project-card glass-card" data-category="integration">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <div class="project-folder"><i class="far fa-folder-open"></i></div>
+                            <div class="project-links">
+                                <a href="https://github.com/pawel-urbanowicz" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h4>Partner Ingestion PoC</h4>
+                        <p>Proof of concept for secure partner data ingestion, standardizing third-party payloads into cloud analytics workflows.</p>
+                        <ul class="project-tech">
+                            <li>Apache Beam</li>
+                            <li>GCP</li>
+                            <li>Terraform</li>
+                            <li>Kafka</li>
+                        </ul>
+                        <button class="btn-outline case-btn" style="margin-top: 1.5rem; width: 100%; cursor: pointer;" onclick="openModal('Partner Ingestion PoC', '<strong>Project Architecture & Deep Dive:</strong><br><br>Built a partner ingestion proof of concept that securely onboarded third-party data into cloud analytics pipelines.<br><br><strong>Technical Implementation:</strong><br><ul><li><strong>Secure Ingestion:</strong> Authenticated partner sources and validated incoming schemas.</li><li><strong>Transformation:</strong> Mapped partner payloads into standardized datasets.</li><li><strong>Automation:</strong> Used Terraform to provision connector infrastructure and deployment pipelines.</li></ul><br><strong>Impact:</strong> Validated partner onboarding architecture and reduced integration risk.')">Read Case Study</button>
+                    </div>
+                </div>
+
+                <!-- Project 7: Operational Alerting Engine -->
+                <div class="project-card glass-card" data-category="operations">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <div class="project-folder"><i class="far fa-folder-open"></i></div>
+                            <div class="project-links">
+                                <a href="https://github.com/pawel-urbanowicz" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h4>Operational Alerting Engine</h4>
+                        <p>Event-driven alert pipeline that prioritizes operational signals and routes incident context into monitoring workflows.</p>
+                        <ul class="project-tech">
+                            <li>Python</li>
+                            <li>Kafka</li>
+                            <li>GCP</li>
+                            <li>Monitoring</li>
+                        </ul>
+                        <button class="btn-outline case-btn" style="margin-top: 1.5rem; width: 100%; cursor: pointer;" onclick="openModal('Operational Alerting Engine', '<strong>Project Architecture & Deep Dive:</strong><br><br>Built an operational alerting pipeline that evaluates event streams and surfaces priority incidents to engineering teams.<br><br><strong>Technical Implementation:</strong><br><ul><li><strong>Event Processing:</strong> Extracted event context from Kafka streams and enriched it for incident workflows.</li><li><strong>Signal Prioritization:</strong> Applied business rules to rank alerts and reduce noise.</li><li><strong>Operational Traceability:</strong> Logged alert context and historical data for traceability and reporting.</li></ul><br><strong>Impact:</strong> Helped teams respond faster to critical incidents and reduced alert fatigue across operations.')">Read Case Study</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+        <div class="section-container">
+            <h3 class="section-title fade-up">Recommendations</h3>
+            <div class="testimonial-slider fade-up">
+                <div class="testimonial-card glass-card" style="display: flex; flex-direction: column; padding: 2rem;">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.25rem;">
+                        <img class="testimonial-avatar" src="https://i.pravatar.cc/100?img=32" alt="Recommendation avatar" />
+                        <h4>Mariana Flores</h4>
+                    </div>
+                    <p style="color: var(--text-muted); font-style: italic; line-height: 1.6;">"Pawel delivers engineering excellence with a strong focus on data platform reliability and real-time analytics. His work made our streaming systems more stable and scalable."</p>
+                </div>
+
+                <div class="testimonial-card glass-card" style="display: flex; flex-direction: column; padding: 2rem;">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.25rem;">
+                        <img class="testimonial-avatar" src="https://i.pravatar.cc/100?img=48" alt="Recommendation avatar" />
+                        <h4>Brendan Bow</h4>
+                    </div>
+                    <p style="color: var(--text-muted); font-style: italic; line-height: 1.6;">"Pawel is a detail-oriented engineer who consistently delivers production-ready backend systems with strong stability and low latency."</p>
+                </div>
+
+                <div class="testimonial-card glass-card" style="display: flex; flex-direction: column; padding: 2rem;">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.25rem;">
+                        <img class="testimonial-avatar" src="https://i.pravatar.cc/100?img=66" alt="Recommendation avatar" />
+                        <h4>Ajas Ahmed</h4>
+                    </div>
+                    <p style="color: var(--text-muted); font-style: italic; line-height: 1.6;">"He brings exceptional technical depth, problem-solving ability, and reliability to every data and software engineering challenge."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="footer">
+        <div class="section-container text-center fade-up">
+            <h2>Let's Connect</h2>
+            
+            <div class="contact-wrapper fade-up">
+                <!-- Left Column: Secure Radio Outpost Telemetry -->
+                <div class="secure-radio-panel glass-card">
+                    <div class="radio-header">
+                        <div class="frequency-lock">
+                            <span class="freq-glow"><i class="fas fa-broadcast-tower pulse-slow" style="color: var(--primary);"></i> FREQ: 94.7 MHz</span>
+                            <span class="active-pulse"></span>
+                        </div>
+                        <h4>Software engineering</h4>
+                    </div>
+                    
+                    <div class="radio-status">
+                        <div class="radio-status-row">
+                            <span class="radio-lbl">ENCRYPTION:</span>
+                            <span class="radio-val font-mono" style="color: var(--primary);">AES-256 / Cloud Data</span>
+                        </div>
+                        <div class="radio-status-row">
+                            <span class="radio-lbl">SIGNAL PROFILE:</span>
+                            <span class="radio-val font-mono" style="color: #4ade80;">STABLE &middot; OPERATIONAL</span>
+                        </div>
+                        <div class="radio-status-row">
+                            <span class="radio-lbl">BEACON ID:</span>
+                            <span class="radio-val font-mono">DATA-OPS-24</span>
+                        </div>
+                    </div>
+
+                    <!-- Visual Signal Waveform / Oscilloscope -->
+                    <div class="signal-visualizer">
+                        <div class="signal-bar bar-1"></div>
+                        <div class="signal-bar bar-2"></div>
+                        <div class="signal-bar bar-3"></div>
+                        <div class="signal-bar bar-4"></div>
+                        <div class="signal-bar bar-5"></div>
+                        <div class="signal-bar bar-6"></div>
+                        <div class="signal-bar bar-7"></div>
+                        <div class="signal-bar bar-8"></div>
+                        <div class="signal-bar bar-9"></div>
+                        <div class="signal-bar bar-10"></div>
+                        <div class="signal-bar bar-11"></div>
+                        <div class="signal-bar bar-12"></div>
+                        <div class="signal-bar bar-13"></div>
+                        <div class="signal-bar bar-14"></div>
+                        <div class="signal-bar bar-15"></div>
+                    </div>
+
+                    <div class="radio-instructions">
+                        <h5>Software engineering</h5>
+                        <p>This uplink is tuned to Pawel's core strengths: cloud data connector engineering, Apache Beam streaming, GCP data platform delivery, and robust analytics pipeline operations.</p>
+                    </div>
+
+                    <div class="radio-contact-details">
+                        <h5>DIRECT FREQUENCY COMM</h5>
+                        <div class="radio-detail-item">
+                            <i class="fab fa-linkedin-in" style="color: #0a66c2;"></i>
+                            <a href="https://www.linkedin.com/in/pawel-urbanowicz/" target="_blank">linkedin.com/in/pawel-urbanowicz</a>
+                        </div>
+                        <div class="radio-detail-item">
+                            <i class="fab fa-github" style="color: #ffffff;"></i>
+                            <a href="https://github.com/pawel-urbanowicz" target="_blank">github.com/pawel-urbanowicz</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Contact Form Container -->
+                <div class="contact-form-container glass-card">
+                    <form class="contact-form" novalidate>
+                        <div id="formMessage" style="display: none; padding: 1rem; margin-bottom: 1.5rem; border-radius: 8px; font-weight: bold; text-align: center;"></div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <input type="text" name="name" id="contactName" placeholder="Your Name" required style="width: 100%; padding: 1rem; border-radius: 8px; border: 1px solid var(--glass-border); background: rgba(255,255,255,0.05); color: white; font-family: var(--font-body); font-size: 1rem; outline: none; transition: border-color 0.3s;">
+                            <span id="nameError" style="color: #fca5a5; font-size: 0.85rem; display: none; margin-top: 0.5rem;">Name field should not be empty</span>
+                        </div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <input type="email" name="email" id="contactEmail" placeholder="Your Email" required style="width: 100%; padding: 1rem; border-radius: 8px; border: 1px solid var(--glass-border); background: rgba(255,255,255,0.05); color: white; font-family: var(--font-body); font-size: 1rem; outline: none; transition: border-color 0.3s;">
+                            <span id="emailError" style="color: #fca5a5; font-size: 0.85rem; display: none; margin-top: 0.5rem;">Enter correct email</span>
+                        </div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <textarea name="message" id="contactMsg" placeholder="Your Message" rows="5" required style="width: 100%; padding: 1rem; border-radius: 8px; border: 1px solid var(--glass-border); background: rgba(255,255,255,0.05); color: white; font-family: var(--font-body); font-size: 1rem; resize: vertical; outline: none; transition: border-color 0.3s;"></textarea>
+                            <span id="msgError" style="color: #fca5a5; font-size: 0.85rem; display: none; margin-top: 0.5rem;">Message body should not be empty</span>
+                        </div>
+                        <button type="submit" id="submitBtn" class="btn-primary" style="width: 100%; border: none; cursor: not-allowed; font-size: 1.1rem; padding: 1rem; opacity: 0.5; transition: all 0.3s;" disabled>Send Message</button>
+                    </form>
+                </div>
+            </div>
+            
+
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/pawel-urbanowicz/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/pawel-urbanowicz" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:pawelurbanowicz5@outlook.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            
+            <p class="copyright">&copy; 2026 Pawel Urbanowicz. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Generic Modal Structure -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content glass-card">
+            <span class="close-modal">&times;</span>
+            <h3 id="modalTitle">Project Title</h3>
+            <div id="modalDesc">Project details...</div>
+            <button class="btn-outline modal-close-btn" style="margin-top: 2rem; width: 100%; cursor: pointer;">Close Case Study</button>
+        </div>
+    </div>
+
+
+
+    <!-- Scroll to Top Button -->
+    <a href="#home" id="scrollTopBtn" style="position: fixed; bottom: 30px; right: 30px; background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; justify-content: center; align-items: center; text-decoration: none; font-size: 1.2rem; opacity: 0; visibility: hidden; transition: var(--transition); z-index: 9000; box-shadow: 0 4px 15px var(--primary-glow);">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script>
+        // Modal & Global Selectors
+        const modal = document.getElementById('projectModal');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalDesc = document.getElementById('modalDesc');
+        const scrollTopBtn = document.getElementById('scrollTopBtn');
+        
+        // Project Modal Logic
+        window.openModal = function(title, desc) {
+            modalTitle.textContent = title;
+            modalDesc.innerHTML = desc; 
+            modal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        };
+
+        // Close logic for all elements (X and Bottom Button)
+        document.querySelectorAll('.close-modal, .modal-close-btn').forEach(btn => {
+            btn.onclick = function() {
+                modal.style.display = 'none';
+                document.body.style.overflow = ''; // Restore scroll
+            };
+        });
+
+
+
+        // Global Click logic (Close on backdrop click)
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = 'none';
+                document.body.style.overflow = '';
+            }
+
+        };
+
+        // Scroll to Top Logic
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 500) {
+                scrollTopBtn.style.opacity = '1';
+                scrollTopBtn.style.visibility = 'visible';
+            } else {
+                scrollTopBtn.style.opacity = '0';
+                scrollTopBtn.style.visibility = 'hidden';
+            }
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
